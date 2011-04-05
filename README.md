@@ -22,8 +22,7 @@ reports, and scheduling. To install, simply drop the com folder in your webroot.
 your own merchant ID, marketplace, access key, security key, etc. For convenience, modify mws-config.cfm (found in the mws examples)
 and all of the examples should work. For feed submissions, make sure you are using valid XML according to the XSD specifications
 provided by Amazon.<br/>
-<i>This part of the library is in active development. Due to the size, we are requesting feedback to know how people are using it
-	before finalizing this part of the library.</i>
+<i>This part of the library is in active development. Due to the size, we are requesting feedback to know how people are using it before finalizing this part of the library.</i>
 
 <h2>Reading the code</h2><br/>
 The source code and all of the examples are dependent on your configuration. I use a build file that
