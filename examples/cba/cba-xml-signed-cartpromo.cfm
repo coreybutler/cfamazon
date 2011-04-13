@@ -13,7 +13,7 @@
 	cart.addItem('Red Fish',19.99,1);
 	
 	//Add a customized item to the cart.
-	item = createObject("component","com.amazon.cba.sitem");
+	item = createObject("component","com.amazon.cba.item");
 	item.init('Blue Fish',29.99,1);
 	item.setWeight(1.75,"lb");
 	cart.addCustomItem(item);

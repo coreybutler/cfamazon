@@ -84,7 +84,7 @@
 	<cfdump var="#arguments.x#">
 </cffunction>
 <div class="nav">
-	<a href="./index.cfm">Home</a>
+	<a href="<cfoutput>#CGI.SERVER_NAME#</cfoutput>">Home</a>
 	<!--- <a href="./examples/mws/mws-submitfeed.cfm">SubmitFeed</a>
 	<a href="./examples/mws/mws-getfeedsubmissionlist.cfm">GetFeedSubmission...</a>
 	<a href="./examples/mws/mws-reportrequest.cfm">Reports</a> --->

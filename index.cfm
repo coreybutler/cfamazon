@@ -11,13 +11,13 @@
 		<dd>
 			All examples assume you have setup your account and read the introductory guides for integrating Checkout by Amazon.<br/><br/>
 			<ol>
-				<li><a href="./examples/cba/xml-unsigned.cfm"><u>Un</u>signed XML Cart</a> (Insecure)</li>
+				<li><a href="./examples/cba/cba-xml-unsigned.cfm"><u>Un</u>signed XML Cart</a> (Insecure)</li>
 				<br/>Get started with an unsigned cart. This should be used for development purposes only.<br/><br/>
-				<li><a href="./examples/cba/xml-signed.cfm">Signed XML Cart</a> (Secure)</li>
+				<li><a href="./examples/cba/cba-xml-signed.cfm">Signed XML Cart</a> (Secure)</li>
 				<br/>Use signed carts to use Checkout by Amazon securely.<br/><br/>
-				<li><a href="./examples/cba/xml-signed-cartpromo.cfm">Signed XML Cart w/ Cart-Level Promotion</a></li> (Secure)
+				<li><a href="./examples/cba/cba-xml-signed-cartpromo.cfm">Signed XML Cart w/ Cart-Level Promotion</a></li> (Secure)
 				<br/>Apply a custom discount to the entire order.<br/><br/>
-				<li><a href="./examples/cba/xml-signed-callbacks.cfm">Signed XML Cart w/ Callback API</a></li> (Secure)
+				<li><a href="./examples/cba/cba-xml-signed-callbacks.cfm">Signed XML Cart w/ Callback API</a></li> (Secure)
 				<br/>Customize orders using the callback API.<br/><br/>
 			</ol>
 			
