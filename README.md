@@ -2,6 +2,11 @@
 
 CFAmazon is a collection of ColdFusion code wrappers and examples designed to get you started with different Amazon web services.
 
+This project is supported when time allows. If you would like to see a feature, feel free
+to contribute to the library, but make sure you mention it by filing a feature request in the issues to prevent duplication of efforts.
+Alternatively, [Ecor Group Consulting](http://www.ecorgroup.com) accepts sponsorship if you prefer to have a supported feature added to
+the library. 
+
 <h2>Checkout By Amazon (CBA)</h2>
 This library contains component wrappers for Checkout By Amazon. It can be used for:
 
