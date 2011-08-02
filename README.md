@@ -41,8 +41,4 @@ does a simple find/replace across all files. The following legend is provided fo
 <b>@EMAILFROM</b>:IPN Notification sender email address (demo purposes only)<br/>
 <b>@CALLBACKURL</b>:The URL used in he Callback API
 
-A series of explanatory blog entries has been started.
-<ol>
-<li>http://www.coreybutler.com/post/2829632232/creating-an-amazon-payments-seller-account</li>
-<li>http://www.coreybutler.com/post/2834602991/using-coldfusion-with-amazon-payments</li>
-</ol> 
+Please see the wiki for more information.
