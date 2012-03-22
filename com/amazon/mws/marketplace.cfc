@@ -74,7 +74,7 @@
 			StructInsert(this.enum.Error,'AccessToFeedProcessingResultDenied','Insufficient privileges to access the feed processing result.');
 			StructInsert(this.enum.Error,'AccessToReportDenied','Insufficient privileges to access the requested report.');
 			StructInsert(this.enum.Error,'ContentMD5Missing','The Content-MD5 header value was missing.');
-			StructInsert(this.enum.Error,'ContentMD5DoesNotMatch','The calculated MD5 hash value doesn’t match the provided Content-MD5 value.');
+			StructInsert(this.enum.Error,'ContentMD5DoesNotMatch','The calculated MD5 hash value doesnï¿½t match the provided Content-MD5 value.');
 			StructInsert(this.enum.Error,'FeedCanceled','Returned for a request for a processing report of a canceled feed.');
 			StructInsert(this.enum.Error,'FeedProcessingResultNoLongerAvailable','The feed processing result is no longer available for download.');
 			StructInsert(this.enum.Error,'FeedProcessingResultNotReady','Processing report not yet generated.');
@@ -1016,9 +1016,15 @@ dump(xml);
 		</cfscript>
 	</cffunction>
 	
-	<cffunction name="encodeurl" hint="A special URL encoding since CF uses a slightly different URK encoding approach." access="private" returntype="string">
+	<cffunction name="encodeurl" hint="A special URL encoding since CF uses a slightly different URL encoding approach." access="private" returntype="string">
 		<cfargument name="str" type="string"/>
-		<cfreturn Replace(Replace(Replace(Replace(Replace(Replace(arguments.str, ",", "%2C", "ALL"), ":", "%3A", "ALL"), " ", "%20", "ALL"),"+","%20","ALL"),"*","%2A","ALL"),"%7E","~","ALL")/>
+		<cfreturn Replace(Replace(Replace(Replace(Replace(Replace(Replace(Replace(arguments.str, ",", "%2C", "ALL"), ":", "%3A", "ALL"), " ", "%20", "ALL"),"+","%20","ALL"),"*","%2A","ALL"),"%7E","~","ALL"), "\", "%5C", "ALL"),"+", "%2B", "ALL")/>
+	</cffunction>
+	
+	<!--- This method was kindly contributed by Glen Hamilton --->
+	<cffunction name="encodeSignature" hint="A special URL encoding since CF uses a slightly different URL encoding approach this is to encode the signature variable." access="private" returntype="string">
+		<cfargument name="str" type="string"/>
+		<cfreturn Replace(Replace(Replace(Replace(Replace(Replace(Replace(arguments.str, "\", "%5C", "ALL"), "+", "%2B", "ALL"), ":", "%3A", "ALL"), "=", "%3D", "ALL"),"/","%2F","ALL"),"*","%2A","ALL"),"%7E","~","ALL")/>
 	</cffunction>
 
 	<cffunction name="formatdate" access="private" hint="Format dates properly for REST">
@@ -1068,7 +1074,7 @@ dump(xml);
 			sigg = trim(super.sign(sig,this.secretKeyId,this.signaturemethod));
 			
 			
-			return this.baseurl&arguments.HTTPRequestURI&"?"&eqs&"&Signature="&sigg;
+			return this.baseurl&arguments.HTTPRequestURI&"?"&eqs&"&Signature="&encodeSignature(sigg);
 		</cfscript>
 	</cffunction>
 
