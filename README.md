@@ -1,3 +1,6 @@
+Follow the author on [G+](https://plus.google.com/u/1/111169756342687497578?rel=author)
+or [Twitter (@goldglovecb)](http://twitter.com/goldglovecb).
+
 <h1>About CFAmazon</h1>
 
 CFAmazon is a collection of ColdFusion code wrappers and examples designed to get you started with different Amazon web services.
