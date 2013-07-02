@@ -609,7 +609,6 @@ dump(xml);
 			var typeList= iif(arguments.ReportTypeList is "All Types", DE(''), DE(arguments.ReportTypeList));
 			var status	= iif(arguments.ReportProcessingStatusList is "All", DE(''), DE(arguments.ReportProcessingStatusList));
 			var i		= 0;
-			var out		= StructNew();
 			var xml		= "";
 			
 			//Specify any additional filters to narrow the results
