@@ -1,6 +1,10 @@
 Follow the author on [G+](https://plus.google.com/u/1/111169756342687497578?rel=author)
 or [Twitter (@goldglovecb)](http://twitter.com/goldglovecb).
 
+## NOTICE
+
+My time has become very strained with other projects. Since originally writing this library, my focus has shifted towards the Node.js world. Additionally, Amazon hasn't reached out to me about this project since the initial inclusion of the MWS functionality. I know a significant number of people are still using it, but the folks I worked with at Amazon have moved to other areas of the company. As a result, if someone has the time and interest in taking over this project, I'd be happy to transition it. Shoot me a note at corey@coreybutler.com if you are interested.
+
 <h1>About CFAmazon</h1>
 
 CFAmazon is a collection of ColdFusion code wrappers and examples designed to get you started with different Amazon web services.
