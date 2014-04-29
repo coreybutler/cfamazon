@@ -1,18 +1,18 @@
-Follow the author on [G+](https://plus.google.com/u/1/111169756342687497578?rel=author)
-or [Twitter (@goldglovecb)](http://twitter.com/goldglovecb).
-
 ## NOTICE
 
 My time has become very strained with other projects. Since originally writing this library, my focus has shifted towards the Node.js world. Additionally, Amazon hasn't reached out to me about this project since the initial inclusion of the MWS functionality. I know a significant number of people are still using it, but the folks I worked with at Amazon have moved to other areas of the company. As a result, if someone has the time and interest in taking over this project, I'd be happy to transition it. Shoot me a note at corey@coreybutler.com if you are interested.
 
+If you're interested in helping with the project, please take a look at the following resources:
+
+- [CFAmazon SlideShare Overview](http://www.slideshare.net/goldglovecb/cfamazon-7608436)
+- [Creating an Amazon Payments Seller Account](https://medium.com/tech-recipes/10450941c42c)
+- [Using ColdFusion with Amazon Payments](https://medium.com/tech-recipes/6a08bdcc0989)
+
+Then get in touch!
+
 <h1>About CFAmazon</h1>
 
-CFAmazon is a collection of ColdFusion code wrappers and examples designed to get you started with different Amazon web services.
-
-This project is supported when time allows. If you would like to see a feature, feel free
-to contribute to the library, but make sure you mention it by filing a feature request in the issues to prevent duplication of efforts.
-Alternatively, [Ecor Group Consulting](http://www.ecorgroup.com) accepts sponsorship if you prefer to have a supported feature added to
-the library. 
+CFAmazon is a collection of ColdFusion code wrappers and examples designed to get you started with different Amazon web services. It was originally created by [Corey Butler](http://github.com/coreybutler) to simplify working with the Amazon Payments API and Merchant Web Services.
 
 <h2>Checkout By Amazon (CBA)</h2>
 This library contains component wrappers for Checkout By Amazon. It can be used for:
