@@ -1,16 +1,8 @@
-## NOTICE
-
-My time has become very strained with other projects. Since originally writing this library, my focus has shifted towards the Node.js world. Additionally, Amazon hasn't reached out to me about this project since the initial inclusion of the MWS functionality. I know a significant number of people are still using it, but the folks I worked with at Amazon have moved to other areas of the company. As a result, if someone has the time and interest in taking over this project, I'd be happy to transition it. Shoot me a note at corey@coreybutler.com if you are interested.
-
-If you're interested in helping with the project, please take a look at the following resources:
+<h1>About CFAmazon</h1>
 
 - [CFAmazon SlideShare Overview](http://www.slideshare.net/goldglovecb/cfamazon-7608436)
 - [Creating an Amazon Payments Seller Account](https://medium.com/tech-recipes/10450941c42c)
 - [Using ColdFusion with Amazon Payments](https://medium.com/tech-recipes/6a08bdcc0989)
-
-Then get in touch!
-
-<h1>About CFAmazon</h1>
 
 CFAmazon is a collection of ColdFusion code wrappers and examples designed to get you started with different Amazon web services. It was originally created by [Corey Butler](http://github.com/coreybutler) to simplify working with the Amazon Payments API and Merchant Web Services.
 
