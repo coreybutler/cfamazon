@@ -110,9 +110,9 @@
 			StructInsert(this.enum.ReportType,'_GET_FLAT_FILE_ORDER_REPORT_DATA_','Scheduled Flat File Order Report');
 			StructInsert(this.enum.ReportType,'_GET_FLAT_FILE_ORDERS_DATA_','Flat File Order Report');
 			StructInsert(this.enum.ReportType,'_GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_','Flat File Order Report');
-			StructInsert(this.enum.ReportType,'_GET_FLAT_FILE_PAYMENT_SETTLEMENT_DATA_','Flat File Settlement Report');
-			StructInsert(this.enum.ReportType,'_GET_PAYMENT_SETTLEMENT_DATA_','XML Settlement Report');
-			StructInsert(this.enum.ReportType,'_GET_ALT_FLAT_FILE_PAYMENT_SETTLEMENT_DATA_','Flat File V2 Settlement Report');
+			StructInsert(this.enum.ReportType,'_GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_','Flat File Settlement Report');
+			StructInsert(this.enum.ReportType,'_GET_V2_SETTLEMENT_REPORT_DATA_XML_','XML Settlement Report');
+			StructInsert(this.enum.ReportType,'_GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2_','Flat File V2 Settlement Report');
 			StructInsert(this.enum.ReportType,'_GET_FLAT_FILE_ALL_ORDERS _DATA_BY_LAST_UPDATE_','Flat File All Orders Report by Last Update');
 			StructInsert(this.enum.ReportType,'_GET_FLAT_FILE_ALL_ORDERS _DATA_BY_ORDER_DATE_','Flat File All Orders Report by Order Date');
 			StructInsert(this.enum.ReportType,'_GET _XML_ALL_ORDERS _DATA_BY_LAST_UPDATE_','XML All Orders Report by Last Update');
